@@ -1,0 +1,129 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(236, 245, 246);
+    line-height: 1.5;
+    margin:0px;
+    overflow-x: hidden;
+}
+nav{
+    background-color: rgb(37, 38, 42);
+    margin: 0;
+    height: 60px;
+    width: 100%;
+}
+nav ul{
+    margin: 0;
+    padding:0;
+}
+nav li{
+    display: inline;
+    float: right;
+    padding: 10px 2px;
+    
+}
+nav a{
+
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    padding: 8px 0;
+    background-color: rgb(40, 40, 81);
+    color: rgb(211, 211, 244);
+    border-radius: 3px;
+}
+nav a:hover{
+    background-color: #b9a488;
+}
+.edit{
+    width: 100px;
+    height: 60px;
+    border-radius: 40px;
+    padding-left: 5px;
+}
+.container{
+    margin: 0px ;
+    background: url('book1.png') no-repeat center/cover ;
+    height: 63vh;
+    padding-top: 250px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgba(9, 20, 142, 0.937);
+}
+.image{
+    width:30%;
+    height:80% ;
+    padding-top:10%;
+    padding-left: 12%;
+}
+.button{
+    width: 15%;
+    height: 9%;
+    background-color: rgb(197, 188, 233);
+    border-radius: 20px;
+    font-size:medium;
+    color: rgb(174, 31, 69);
+}
+#home{
+    width: 100%;
+    height: 40vh;
+}
+#book{
+    background-color: rgb(107, 58, 156);
+    color: aliceblue;
+    margin:10px;
+    padding: 40px 10px;
+    border-radius: 5px;
+    font-size:larger;
+}
+#book img{
+    display: block;
+    margin-top: 30px;
+    width:20% ;
+    height:240px;
+}
+.desi{
+    width: 100%;
+    text-align: center;
+    padding: 20px 10px;
+    float: left;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+.left-align{
+    text-align: right;
+    display: block;
+    color: rgb(138, 43, 226);
+}
+.desi img{
+    display: inline-block;
+    margin-right: 50px;
+    width: 12%;
+    height: 300px;
+}
+.end{
+    width: 100%;
+    font-size:xx-large;
+    line-height: 2;
+    padding: 5% 0px 10% 2%;
+    background-color:#d7e8f4;
+    color: rgb(39, 39, 223);
+}
+.end img{
+    width: 35%;
+    height:40vh;
+}
+.footer-contact{
+    background-color: black;
+    width: 100%;
+    padding: 20px 10px ;
+    margin-right: 10px;
+    color: white;
+}
+.foo{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
